@@ -1,0 +1,26 @@
+# == Schema Information
+#
+# Table name: dogs
+#
+#  created_at :datetime         not null
+#  id         :bigint(8)        not null, primary key
+#  level      :integer
+#  name       :string
+#  points     :integer
+#  stamina    :integer
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  level: 1
+  points: 1
+  stamina: 1
+
+two:
+  name: MyString
+  level: 1
+  points: 1
+  stamina: 1

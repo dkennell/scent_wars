@@ -1,0 +1,17 @@
+# == Schema Information
+#
+# Table name: hydrants
+#
+#  created_at :datetime         not null
+#  id         :bigint(8)        not null, primary key
+#  size       :string
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  size: MyString
+
+two:
+  size: MyString
